@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+header{
+    text-align: center;
+    background-color: white;
+    padding: 5px;
+    color:rgb(49, 39, 39);
+}
+body{
+    background-color: rgb(49, 39, 39);
+}
+#score{
+    border: 1px white solid;
+    border-radius: 20px;
+    width: 200px;
+    text-align: center;
+    margin: 20px auto;
+    color: white;
+    position: relative;
+    padding: 20px 10px;
+}
+#user-score{
+    color: white;
+}
+#comp-score{
+    color: white;
+}
+.user{
+    color: white;
+    background-color: red;
+    position: absolute;
+    left: -10%;
+}
+.comp{
+    color: white;
+    background-color: red;
+    position: absolute;
+    right: -10%;
+}
+span{
+    font-size: 30px;
+}
+#result{
+    color: white;
+    font-size: 70px;
+    text-align: center;
+}
+#images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.img1{
+    border-radius: 50%;
+}
+.img2{
+    border-radius: 50%;
+}
+.img3{
+    border-radius: 50%;
+}
